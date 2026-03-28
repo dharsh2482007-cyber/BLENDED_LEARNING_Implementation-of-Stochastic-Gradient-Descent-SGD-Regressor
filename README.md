@@ -48,8 +48,8 @@ sgd_model=SGDRegressor(max_iter=1000,tol=1e-3)
 sgd_model.fit(X_train,y_train)
 y_pred=sgd_model.predict(X_test)
 
-print('Name: KRITHIKAA P ')
-print('Reg. No: 212225040193')
+print('Name: Priyadharshini P ')
+print('Reg. No: 212225220076')
 
 print(f"MSE: {mean_squared_error(y_test,y_pred):.2f}")
 print(f"R^2: {r2_score(y_test,y_pred):.4f}")
@@ -67,8 +67,16 @@ plt.plot([min(y_test),max(y_test)],[min(y_test),max(y_test)],color='red')
 plt.grid(True)
 plt.show()
 
+````
+
 ## Output:
-![simple linear regression model for predicting the marks scored](sam.png)
+
+<img width="624" height="544" alt="Screenshot 2026-03-28 211603" src="https://github.com/user-attachments/assets/700fafce-c341-409f-baae-59d7ad0e1ebb" />
+<img width="420" height="598" alt="Screenshot 2026-03-28 211616" src="https://github.com/user-attachments/assets/db854fb4-60d0-4a15-9967-e6089bbec492" />
+<img width="617" height="199" alt="Screenshot 2026-03-28 211630" src="https://github.com/user-attachments/assets/7bc5577a-583a-48a9-ba73-5c5277234d1b" />
+<img width="627" height="225" alt="Screenshot 2026-03-28 211642" src="https://github.com/user-attachments/assets/79c056f2-5f86-4ee3-bcc9-bcdeaa3654b0" />
+<img width="594" height="429" alt="Screenshot 2026-03-28 211651" src="https://github.com/user-attachments/assets/808906f8-76df-4dea-980a-e3c7ff8591a9" />
+
 
 
 ## Result:
