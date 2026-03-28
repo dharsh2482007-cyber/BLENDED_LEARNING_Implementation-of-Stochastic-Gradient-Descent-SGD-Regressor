@@ -9,10 +9,16 @@ To write a program to implement Stochastic Gradient Descent (SGD) Regressor for 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1.Import required libraries and load the dataset, then preprocess the data by removing unnecessary columns and converting categorical variables into numerical form.
+
+
+2.Normalize the feature values using StandardScaler and split the dataset into training and testing sets.
+
+3.Train the SGD Regressor model using the training data.
+
+
+4.Predict values using the test data and evaluate the model using metrics such as MSE, R², and MAE.
+
 
 ## Program:
 ```
